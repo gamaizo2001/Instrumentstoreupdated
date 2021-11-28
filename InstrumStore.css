@@ -1,0 +1,97 @@
+.product-box {
+    flex-basis: 33.333333%;
+    border: 3px ridge #000;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    margin-right: 2%;
+    position: relative;
+    min-height: 270px;
+    margin-bottom: 30px;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideform {
+    display: none;
+}
+
+
+
+.product-box img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 60%;
+}
+
+.brandName{
+    display: none;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    bottom: 25%;
+}
+.price{
+    display: none;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    bottom: 17%;
+}
+
+.product-box p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    bottom: 33%;
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header{
+    min-height: 80px;
+}
+
+.addProduct{
+    float: left;
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 30px;
+}
+.add-cart{
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 35px;
+    position: absolute;
+    width: 90%;
+    bottom: 3%;
+}
+
+.cart{
+    float: right;
+    display: inline;
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 30px;
+}
